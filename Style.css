@@ -294,7 +294,9 @@ ul{
     margin-right: auto;
 }
 
-
+#giftext {
+    padding-left: 20px;
+}
 
 
 .imgGif {
@@ -302,7 +304,7 @@ ul{
     height: auto;
     float: left;
     border-radius: 25px;
-    padding: 20px;
+    
     
 }
 
