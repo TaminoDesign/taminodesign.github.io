@@ -601,7 +601,7 @@ overflow: hidden;
         max-width: 1280px;
         align-items: baseline;
         margin: auto;
-        margin: 15px;
+        padding: 50px;
         flex-direction: row;
       }
       
