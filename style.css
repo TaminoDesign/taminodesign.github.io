@@ -655,11 +655,11 @@ width: 100%;
 }
 
 @media (max-width: 900px){
-    .flex-containerL form{
-        top: -50px;
+        .flex-containerL form {
+            top: -20px;
+        }
     }
-}
-
+    
 @media (min-width: 500px){
     .PCNo{
         display: none;
