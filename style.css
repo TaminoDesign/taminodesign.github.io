@@ -598,7 +598,7 @@ overflow: hidden;
 .flex-containerL {
         display: flex;
         justify-items: baseline;
-        max-width: 1500px;
+        max-width: 1280px;
         align-items: baseline;
         margin: auto;
         flex-direction: row;
