@@ -602,6 +602,7 @@ overflow: hidden;
         align-items: baseline;
         margin: auto;
         flex-direction: row;
+        padding: 10px;
       }
       
       .flex-containerL > div {
