@@ -601,8 +601,8 @@ overflow: hidden;
         max-width: 1280px;
         align-items: baseline;
         margin: auto;
+        margin: 15px;
         flex-direction: row;
-        padding: 10px;
       }
       
       .flex-containerL > div {
