@@ -25,7 +25,11 @@ body {
 
 @font-face {
     font-family: 'Merienda';
-    src: url('img/Merienda-Regular.ttf');
+    src: url('img/merienda-variablefont_wght-webfont.woff2') format('woff2'),
+         url('img/merienda-variablefont_wght-webfont.woff') format('woff'),
+         url('img/Merienda-Regular.ttf')format('ttf');
+    font-weight: normal;
+    font-style: normal;
   }
 
 h1 {
