@@ -641,6 +641,7 @@ width: 100%;
         flex-direction: column;
         justify-items: center;
         align-items: center;
+        padding: 5px;
     }
     .flex60 {
         width: 90%;
