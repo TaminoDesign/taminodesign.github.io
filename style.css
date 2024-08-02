@@ -689,18 +689,19 @@ padding: 40px;
     border-radius: 20px;
     color: white;
     font-family: 'Aboreto';
+    cursor: pointer; /* Change cursor to pointer for better UX */
 }
 
 .hide {
     display: none;
-  }
-  
-  .myDIV:hover + .hide {
-    display: block;
+}
+
+.show {
+    display: block; /* New class to show the hidden content */
     color: rgb(255, 255, 255);
     font-family: 'Aboreto';
     padding-top: 20px;
-  }
+}
 
 
 #PortfolioPage {
