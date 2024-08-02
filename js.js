@@ -86,6 +86,14 @@ setInterval(gotoNext, autoplayInterval);
         setInterval(moveCircles, 10000);
 
 
+function toggleHide() {
+    var hiddenContent = document.getElementById("hiddenContent");
+    if (hiddenContent.classList.contains("show")) {
+        hiddenContent.classList.remove("show");
+    } else {
+        hiddenContent.classList.add("show");
+    }
+}
 
 
 
