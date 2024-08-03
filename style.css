@@ -685,23 +685,17 @@ padding: 40px;
 
 
 .myDIV {
-    background-color: rgba(0, 0, 0, 0.507);
-    padding: 20px;
-    border-radius: 20px;
-    color: white;
-    font-family: 'Aboreto';
-}
-
-.hide {
-    display: none;
-  }
-  
-  .myDIV:hover + .hide {
     display: block;
+    font-size: 10px;
     color: rgb(255, 255, 255);
     font-family: 'Aboreto';
     padding-top: 20px;
-  }
+}
+
+.myDIV p {
+    font-size: 20px;
+    padding: 0px;
+}
 
 #PortfolioPage {
     display: flex;
