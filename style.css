@@ -834,6 +834,11 @@ form {
     color: #ffffff;
 }
 
+.message textarea {
+    font-family: 'Aboreto';
+    color: #ffffff;
+}
+
 form button {
   width: fit-content;
   margin: 20px;
