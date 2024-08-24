@@ -796,6 +796,7 @@ form {
     flex-direction: column;
     width: 100%;
     font-family: 'Aboreto';
+    color: #ffffff;
   }
 
 .name {
@@ -824,6 +825,12 @@ form {
   resize: none;
   height: 200px;
   color: #ffffff;
+}
+
+.name,
+.email,
+.message text {
+    color: #ffffff;
 }
 
 form button {
