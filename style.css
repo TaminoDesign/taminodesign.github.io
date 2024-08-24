@@ -804,6 +804,7 @@ form {
   padding: 20px;
   background-color: #ffffff23;
   border: none;
+  font-family: 'Aboreto';
 }
 .email {
   margin: 20px;
@@ -811,6 +812,7 @@ form {
   padding: 20px;
   background-color: #ffffff23;
   border: none;
+  font-family: 'Aboreto';
 }
 
 .message {
@@ -821,6 +823,7 @@ form {
   border: none;
   resize: none;
   height: 200px;
+  font-family: 'Aboreto';
 }
 
 form button {
