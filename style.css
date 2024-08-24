@@ -788,3 +788,42 @@ border-radius: 50px;
         font-size: 20px;
     }
 }
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Aboreto';
+  }
+
+.name {
+  margin: 20px;
+  border-radius: 40px;
+  padding: 20px;
+  background-color: #ffffff23;
+  border: none;
+}
+.email {
+  margin: 20px;
+  border-radius: 40px;
+  padding: 20px;
+  background-color: #ffffff23;
+  border: none;
+}
+
+.message {
+  margin: 20px;
+  border-radius: 40px;
+  padding: 20px;
+  background-color: #ffffff23;
+  border: none;
+  resize: none;
+  height: 200px;
+}
+
+form button {
+  width: fit-content;
+  margin: 20px;
+}
