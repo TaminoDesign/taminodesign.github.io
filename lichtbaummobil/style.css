@@ -986,7 +986,7 @@ text-align: center;
     width: 20%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1370px) {
   .wood {
       background-attachment: scroll;
   }
@@ -1109,7 +1109,7 @@ text-align: center;
   z-index: 0;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1370px) {
   .woodImg {
       background-attachment: scroll;
   }
@@ -1279,6 +1279,12 @@ mask-size: 51% 51%;
 z-index: 0;
 }
 
+@media (max-width: 1370px) {
+  .CampwoodImg {
+      background-attachment: scroll;
+  }
+}
+
 .CampwoodImg p {
   color: #ffffff;
 }
@@ -1388,8 +1394,8 @@ mask-size: 51% 51%;
     height: fit-content;
     overflow: hidden;
     background-image: url('img/camp.JPG');
-    background-size: cover;
-    background-position: fill;
+    background-size: fill;
+    background-position: center;
     justify-content: center;
     align-items: center;
     background-attachment: fixed;
@@ -1412,16 +1418,24 @@ mask-size: 51% 51%;
   background-color: #777777;
   background-blend-mode: darken;
   background-size: cover;
-  background-position: center;
+  background-position:center;
   justify-content: center;
   align-items: center;
   background-attachment: fixed;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1370px) {
+  .campContent {
+      background-attachment: scroll;
+  }
+  .freilernerContent {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 1300px) {
   .campContent {
       padding: 20px;
-      background-attachment:scroll;
   }
   .freilernerContent {
     padding: 20px;
