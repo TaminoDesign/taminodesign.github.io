@@ -844,3 +844,7 @@ form button {
   width: fit-content;
   margin: 20px;
 }
+
+.space {
+    margin-top: 1000px;
+}
