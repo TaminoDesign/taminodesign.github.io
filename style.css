@@ -22,7 +22,7 @@ body {
 
 @font-face {
     font-family: 'JosefinSans';
-    src: url('img/JosefinSans-VariableFont_wght.ttf');
+    src: url('img/JosefinSans-Regular.ttf');
   }
 
   @font-face {
@@ -459,6 +459,8 @@ button {
 #Hero p {
     padding-bottom: 20px;
     padding-top: 20px;
+    padding-left: 0px;
+    padding-left: 0px;
 }
 
 #Hero h1 {
@@ -467,7 +469,7 @@ button {
 
 #heroImg {
     height: 200px;
-    width: 200px;
+    width: auto;
     background-color: #ffffff23;
     border-radius: 40px;
     transform: rotate(9deg);
