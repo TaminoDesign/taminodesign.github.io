@@ -456,6 +456,15 @@ button {
     padding-left: 50px;
 }
 
+#Hero p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#Hero h1 {
+    padding: 0px;
+}
+
 #heroImg {
     height: 200px;
     width: 200px;
