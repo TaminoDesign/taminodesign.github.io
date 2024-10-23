@@ -27,7 +27,7 @@ body {
 
   @font-face {
     font-family: 'JosefinSlab';
-    src: url('img/JosefinSlab-VariableFont_wght.ttf');
+    src: url('img/JosefinSlab-ExtraLight.ttf');
   }
 
 h1 {
@@ -460,7 +460,7 @@ button {
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 0px;
-    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #Hero h1 {
