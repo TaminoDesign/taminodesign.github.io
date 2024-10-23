@@ -471,7 +471,7 @@ button {
     height: 60px;
     width: auto;
     background-color: #ffffff23;
-    border-radius: 40px;
+    border-radius: 10px;
     transform: rotate(2deg);
     margin-left: 10px;
 }
