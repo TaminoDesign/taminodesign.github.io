@@ -9,7 +9,7 @@ body {
     font-size: 20px;
     margin: 0;
     padding: 0;
-    font-family: 'Codystar';
+    font-family: 'JosefinSans';
 }
 
 
@@ -21,20 +21,20 @@ body {
 /*Fonts*/
 
 @font-face {
-    font-family: 'Codystar';
-    src: url('img/Codystar-Regular.ttf');
+    font-family: 'JosefinSans';
+    src: url('img/JosefinSans-VariableFont_wght.ttf');
   }
 
   @font-face {
-    font-family: 'Aboreto';
-    src: url('img/Aboreto-Regular.ttf');
+    font-family: 'JosefinSlab';
+    src: url('img/JosefinSlab-VariableFont_wght.ttf');
   }
 
 h1 {
-    font-family: 'Codystar';
+    font-family: 'JosefinSlab';
     font-size: 100px;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: 200;
     padding: 40px;
     color: white;
     animation: animate 0.3s ease-in;
@@ -71,9 +71,9 @@ h1 {
 
 
 h2 {
-    font-family: 'Codystar';
+    font-family: 'JosefinSlab';
     font-size: 50px;
-    font-weight: normal;
+    font-weight: 200;
     color: white;
     animation: animateH2 0.3s ease-in;
 }
@@ -98,7 +98,7 @@ h2 {
   }
 
 p {
-    font-family: 'Aboreto';
+    font-family: 'JosefinSans';
     font-size: 30px;
     padding: 40px;
     font-weight: normal;
@@ -118,7 +118,7 @@ p {
 }
 
 a {
-    font-family: 'Aboreto';
+    font-family: 'JosefinSans';
     font-size: 30px;
     padding: 40px;
     font-weight: normal;
@@ -157,7 +157,7 @@ button {
     font-size: 31px;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: 'Aboreto';
+    font-family: 'JosefinSans';
 }
 
 #footer {
@@ -451,10 +451,19 @@ button {
 #Hero {
     width: 100%;
     height: 100vh;
-    text-align: center;
+    text-align: left;
     align-content: center;
+    padding-left: 50px;
 }
 
+#heroImg {
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff23;
+    border-radius: 40px;
+    transform: rotate(9deg);
+    margin: 20px;
+}
 
 
 #About {
@@ -688,7 +697,7 @@ padding: 40px;
     display: block;
     font-size: 10px;
     color: rgb(255, 255, 255);
-    font-family: 'Aboreto';
+    font-family: 'JosefinSans';
     padding-top: 20px;
 }
 
@@ -795,7 +804,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-family: 'Aboreto';
+    font-family: 'JosefinSans';
     color: #ffffff;
   }
 
@@ -825,18 +834,18 @@ form {
   resize: none;
   height: 200px;
   color: #ffffff;
-  font-family: 'Aboreto';
+  font-family: 'JosefinSans';
 }
 
 .name,
 .email,
 .message text {
-    font-family: 'Aboreto';
+    font-family: 'JosefinSans';
     color: #ffffff;
 }
 
 .message textarea {
-    font-family: 'Aboreto';
+    font-family: 'JosefinSans';
     color: #ffffff;
 }
 
