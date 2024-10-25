@@ -453,7 +453,6 @@ button {
     height: 100vh;
     text-align: center;
     align-content: center;
-    padding-left: 50px;
 }
 
 #Hero p {
@@ -461,6 +460,12 @@ button {
     padding-top: 20px;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+@media (max-width: 400px) {
+    #Hero {
+        padding: 10px;
+    }
 }
 
 #Hero h1 {
