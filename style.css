@@ -86,6 +86,21 @@ h2 {
     }
 }
 
+h2 a {
+    font-family: 'JosefinSlab';
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+@media (max-width: 750px) {
+    h2 a{
+        font-size: 20px;
+    }
+}
+
 @keyframes animateH2 {
     0% { 
       opacity: 0;
@@ -743,6 +758,7 @@ padding: 40px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
   }
 
   .portfolioHomeContent {
