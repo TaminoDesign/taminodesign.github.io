@@ -739,6 +739,8 @@ padding: 40px;
 .portfolioHomeImage {
     width: 100%;
     height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .portfolioHomeTextBottom{
@@ -752,6 +754,15 @@ padding-right: 50px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .portfolioHomeTextBottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 
