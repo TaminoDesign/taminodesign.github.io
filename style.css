@@ -158,6 +158,7 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     font-family: 'JosefinSans';
+    border: 2px solid white;
 }
 
 #footer {
@@ -707,6 +708,33 @@ padding: 40px;
     width: 100%;
     height: 100vh;
     background-image: url('img/space\ background\ with\ black\ corner.png');
+    background-size: cover;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolioHomeBackground2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/LBM\ Hero\ hero\ dark.jpg');
+    background-size: cover;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolioHomeBackground3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/hero.JPG');
+    background-size: cover;
     border-radius: 40px;
     display: flex;
     flex-wrap: wrap;
