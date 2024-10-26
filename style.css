@@ -724,7 +724,7 @@ padding: 40px;
 
 
 .portfolioHomeTextTop {
-    position: absolute;
+    margin: 50px;
     top: 50px;
     left: 50px;
     right: 50px;
@@ -735,16 +735,19 @@ padding: 40px;
     align-items: center;
 }
 
+.portfolioHomeTextTop p,
+.portfolioHomeTextBottom p {
+    padding: 0px;
+}
+
 
 .portfolioHomeImage {
     width: 100%;
     height: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .portfolioHomeTextBottom{
-    position: absolute;
+    margin: 50px;
     bottom: 50px;
 width: 100%;
 padding-left: 50px;
@@ -757,6 +760,11 @@ padding-right: 50px;
 }
 
 @media (max-width: 1000px) {
+    .portfolioHomeTextTop {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .portfolioHomeTextBottom {
         flex-direction: column;
         justify-content: center;
