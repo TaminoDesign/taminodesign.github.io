@@ -699,10 +699,59 @@ padding: 40px;
 
 
 
+  .portfolioHomeBackground {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/Young\ Cre8ors.png');
+    background-color: #002FFF;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolioHomeContent {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 
+.portfolioHomeTextTop {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
+.portfolioHomeImage {
+    width: 100%;
+    height: auto;
+}
+
+.portfolioHomeTextBottom{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
