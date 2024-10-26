@@ -701,7 +701,7 @@ padding: 40px;
 
   .portfolioHomeBackground {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-image: url('img/space\ background\ with\ black\ corner.png');
     border-radius: 40px;
     display: flex;
@@ -724,7 +724,7 @@ padding: 40px;
 
 
 .portfolioHomeTextTop {
-    margin: 50px;
+    position: absolute;
     top: 50px;
     left: 50px;
     right: 50px;
@@ -742,12 +742,12 @@ padding: 40px;
 
 
 .portfolioHomeImage {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 70vh;
 }
 
 .portfolioHomeTextBottom{
-    margin: 50px;
+    position: absolute;
     bottom: 50px;
 width: 100%;
 padding-left: 50px;
