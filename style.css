@@ -703,7 +703,6 @@ padding: 40px;
     width: 100%;
     height: 100vh;
     background-image: url('img/Young\ Cre8ors.png');
-    background-color: #002FFF;
     border-radius: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -720,6 +719,7 @@ padding: 40px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 40px;
   }
 
 
@@ -729,6 +729,7 @@ padding: 40px;
     left: 50px;
     right: 50px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
@@ -743,6 +744,7 @@ padding: 40px;
 
 .portfolioHomeTextBottom{
     position: absolute;
+    flex-direction: row;
     bottom: 50px;
     left: 50px;
     right: 50px;
