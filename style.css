@@ -767,10 +767,18 @@ padding-right: 50px;
         justify-content: center;
         align-items: center;
     }
+
+    .portfolioHomeTextTop h2 {
+        padding-bottom: 10px;
+    }
+
     .portfolioHomeTextBottom {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .portfolioHomeTextBottom p {
+        padding-top: 10px;
     }
 
 }
