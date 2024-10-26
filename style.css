@@ -725,6 +725,7 @@ padding: 40px;
 
 .portfolioHomeTextTop {
     position: absolute;
+    margin-bottom: 20px;
     top: 50px;
     left: 50px;
     right: 50px;
@@ -742,12 +743,13 @@ padding: 40px;
 
 
 .portfolioHomeImage {
-    width: auto;
-    height: 85vh;
+    width: 90%;
+    height: auto;
 }
 
 .portfolioHomeTextBottom{
     position: absolute;
+    margin-top: 20px;
     bottom: 50px;
 width: 100%;
 padding-left: 50px;
