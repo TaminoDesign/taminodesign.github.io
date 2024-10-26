@@ -464,6 +464,25 @@ button {
 /*Home*/
 
 
+.fade-text span {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+  }
+
+  .fade-text span:nth-child(1) { animation-delay: 0s; }
+  .fade-text span:nth-child(2) { animation-delay: 0.1s; }
+  .fade-text span:nth-child(3) { animation-delay: 0.2s; }
+  .fade-text span:nth-child(4) { animation-delay: 0.3s; }
+  .fade-text span:nth-child(5) { animation-delay: 0.4s; }
+  .fade-text span:nth-child(6) { animation-delay: 0.5s; }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+
+
 
 #Hero {
     width: 100%;
