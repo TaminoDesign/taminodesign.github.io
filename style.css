@@ -527,7 +527,7 @@ padding: 40px;
 
 #Portfolio {
     width: 100%;
-    height: 500px;
+    height: auto;
     text-align: center;
     align-content: start;
     align-items: start;
