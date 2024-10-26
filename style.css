@@ -177,6 +177,18 @@ button {
     border: 2px solid white;
 }
 
+.button:hover {
+    background-color: #ffffff00;
+    border: 1px solid white;
+}
+
+@media (min-width: 1000px) {
+    .button:hover {
+        background-color: #ffffff23;
+        border: 2px solid white;
+    }
+}
+
 #footer {
     width: 100%;
     height: 100vh;
