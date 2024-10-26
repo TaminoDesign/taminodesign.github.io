@@ -182,7 +182,7 @@ button {
     border: 1px solid white;
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
     .button:hover {
         background-color: #ffffff23;
         border: 2px solid white;
