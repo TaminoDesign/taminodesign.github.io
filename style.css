@@ -701,7 +701,7 @@ padding: 40px;
 
   .portfolioHomeBackground {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: url('img/space\ background\ with\ black\ corner.png');
     border-radius: 40px;
     display: flex;
