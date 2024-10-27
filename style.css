@@ -184,8 +184,19 @@ button {
 }
 
 button:hover {
-    background-color: #00C3FF;
+    background-color: #ffffff00;
+    border: 0px solid white;
+    animation: animateButton 0.2s ease-in;
 }
+
+@keyframes animateButton {
+    0% { 
+      background-color: #ffffff23;
+    }
+    100% {
+        background-color: #ffffff00;
+    }
+  }
 
 #footer {
     width: 100%;
