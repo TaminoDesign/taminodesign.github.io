@@ -850,7 +850,6 @@ padding-right: 50px;
     font-size: 10px;
     color: rgb(255, 255, 255);
     font-family: 'JosefinSans';
-    padding-top: 20px;
 }
 
 .myDIV p {
@@ -874,6 +873,11 @@ padding-right: 50px;
 
 #PortfolioItems a {
     padding: 0px;
+}
+
+#PortfolioItems a button {
+    font-size: 20px;
+    margin-top: 40px;
 }
 
 #PortfolioItems {
