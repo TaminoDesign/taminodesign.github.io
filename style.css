@@ -37,7 +37,7 @@ h1 {
     font-weight: 200;
     padding: 40px;
     color: white;
-    animation: animate 0.3s ease-in;
+    animation: animated 0.3s ease-in;
 }
 
 @media (max-width: 800px) {
@@ -510,6 +510,15 @@ button:hover {
 #Hero h1 {
     padding: 0px;
 }
+
+.text-line {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+  }
+  .text-line:nth-child(1) { animation-delay: 0.5s; }
+  .text-line:nth-child(2) { animation-delay: 1s; }
+  .text-line:nth-child(3) { animation-delay: 1.5s; }
+
 
 #heroImg {
     height: 60px;
