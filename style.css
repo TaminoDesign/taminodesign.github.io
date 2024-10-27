@@ -170,16 +170,17 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 31px;
+    font-size: 30px;
     margin: 4px 2px;
     cursor: pointer;
     font-family: 'JosefinSans';
     border: 2px solid white;
 }
 
-.button:hover {
-    background-color: #ffffff00;
-    border: 1px solid white;
+@media (max-width: 400px) {
+    button {
+        font-size: 20px;
+    }
 }
 
 #footer {
