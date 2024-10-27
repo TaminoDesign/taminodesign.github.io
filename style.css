@@ -185,16 +185,18 @@ button {
 
 button:hover {
     background-color: #ffffff00;
-    border: 0px solid white;
+    border: 2px solid white;
     animation: animateButton 0.2s ease-in;
 }
 
 @keyframes animateButton {
     0% { 
       background-color: #ffffff23;
+      border: 2px solid white;
     }
     100% {
         background-color: #ffffff00;
+        border: 2px solid rgba(255, 255, 255, 0);
     }
   }
 
