@@ -119,6 +119,7 @@ p {
     padding: 40px;
     font-weight: normal;
     color: white;
+    line-height: 1.6;
 }
 
 @media (max-width: 500px) {
