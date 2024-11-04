@@ -926,7 +926,10 @@ width: 100%;
 border-radius: 50px;
 }
 
-
+.contra-hire-me-button {
+    width: 200px;
+    height: auto;
+}
 
 
 
