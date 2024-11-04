@@ -932,6 +932,8 @@ border-radius: 50px;
 .contra-hire-me-button {
     width: 200px;
     height: auto;
+        justify-self: center;
+    align-self: center;
 }
 
 
