@@ -907,6 +907,9 @@ padding-right: 50px;
     text-align: center;
     align-content: center;
     background-color: #ffffff23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 800px) {
