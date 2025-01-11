@@ -324,7 +324,7 @@ button:hover {
     height: 92px;
     position: absolute;
     cursor: pointer;
-    bottom: 40px;
+    top: 40px;
     right: 40px;
     background-color: #4F4F4F;
     padding-left: 20px;
