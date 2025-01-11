@@ -325,7 +325,7 @@ button:hover {
     position: absolute;
     cursor: pointer;
     top: 40px;
-    right: 40px;
+    left: 40px;
     background-color: #4F4F4F;
     padding-left: 20px;
     padding-right: 20px;
@@ -355,8 +355,8 @@ button:hover {
     position: fixed;
     background-color: #4F4F4F;
     border-radius: 25px;
-    left: 40px;
-    bottom: 150px;
+    right: 40px;
+    top: 150px;
     z-index: 1;
     overflow: hidden;
 
@@ -392,8 +392,8 @@ button:hover {
     cursor: pointer;
     float: right;
     position: absolute;
-    bottom: 40px;
-    left: 40px;
+    top: 40px;
+    right: 40px;
     background-color: #4F4F4F;
     padding-left: 30px;
     padding-right: 30px;
