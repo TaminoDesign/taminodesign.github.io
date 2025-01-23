@@ -919,6 +919,10 @@ padding-right: 50px;
     width: 48%;
 }
 
+.PortfolioItemText2 {
+    width: 48%;
+    padding-left: 15px;
+}
 
 
 #PortfolioItems img {
@@ -946,6 +950,9 @@ width: 52%;
         width: 100%;
         }
     .PortfolioItemText {
+        width: 100%;
+    }
+    .PortfolioItemText2 {
         width: 100%;
     }
 }
