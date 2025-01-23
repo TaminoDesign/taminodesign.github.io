@@ -921,7 +921,7 @@ padding-right: 50px;
 
 @media (max-width: 800px) {
     #PortfolioItems {
-        width: 100%;
+        display: flex;
         flex-direction: column;
     }
     #PortfolioItems img {
@@ -929,7 +929,6 @@ padding-right: 50px;
         }
     .PortfolioItemText {
         width: 100%;
-        padding-left: 10px;
     }
 }
 
