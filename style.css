@@ -911,6 +911,8 @@ padding-right: 50px;
     align-content: center;
     background-color: #ffffff23;
     flex-direction: row;
+    align-items: center;
+    align-content: center;
 }
 
 .PortfolioItemText {
@@ -931,7 +933,7 @@ padding-right: 50px;
 }
 
 #PortfolioItems img {
-width: 50%;
+width: 52%;
 }
 
 .contra-hire-me-button {
