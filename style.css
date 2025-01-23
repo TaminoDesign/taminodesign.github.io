@@ -913,7 +913,7 @@ padding-right: 50px;
 }
 
 .PortfolioItemText {
-    width: 40%;
+    width: fill;
     padding-left: 10px;
 }
 
@@ -930,8 +930,7 @@ padding-right: 50px;
 }
 
 #PortfolioItems img {
-width: 50%;
-border-radius: 50px;
+width: fill;
 }
 
 .contra-hire-me-button {
