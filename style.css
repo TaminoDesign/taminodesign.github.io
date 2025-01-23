@@ -922,15 +922,7 @@ padding-right: 50px;
 @media (max-width: 800px) {
     #PortfolioItems {
         width: 100%;
-    }
-}
-
-@media (max-width: 400px) {
-    #PortfolioItems {
-        width: 95%;
         flex-direction: column;
-        margin: 10px;
-        padding: 10px;
     }
     #PortfolioItems img {
         width: 100%;
@@ -939,6 +931,15 @@ padding-right: 50px;
         width: 100%;
         padding-left: 10px;
     }
+}
+
+@media (max-width: 400px) {
+    #PortfolioItems {
+        width: 95%;
+        margin: 10px;
+        padding: 10px;
+    }
+
 }
 
 #PortfolioItems img {
