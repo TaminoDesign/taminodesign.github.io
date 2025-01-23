@@ -916,7 +916,7 @@ padding-right: 50px;
 }
 
 .PortfolioItemText {
-    width: 40%;
+    width: fill;
     padding-left: 10px;
 }
 
@@ -929,6 +929,14 @@ padding-right: 50px;
 @media (max-width: 400px) {
     #PortfolioItems {
         width: 95%;
+        flex-direction: column;
+    }
+    #PortfolioItems img {
+        width: 100%;
+        }
+    .PortfolioItemText {
+        width: 100%;
+        padding-left: 10px;
     }
 }
 
