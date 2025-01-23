@@ -919,7 +919,25 @@ padding-right: 50px;
     width: 48%;
 }
 
-@media (max-width: 800px) {
+
+
+#PortfolioItems img {
+width: 52%;
+}
+
+.contra-hire-me-button {
+    width: 200px;
+    height: auto;
+        justify-self: center;
+    align-self: center;
+}
+
+#conceptLink {
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
     #PortfolioItems {
         display: flex;
         flex-direction: column;
@@ -940,24 +958,6 @@ padding-right: 50px;
     }
 
 }
-
-#PortfolioItems img {
-width: 52%;
-}
-
-.contra-hire-me-button {
-    width: 200px;
-    height: auto;
-        justify-self: center;
-    align-self: center;
-}
-
-#conceptLink {
-    width: 100%;
-    text-align: center;
-}
-
-
 
 
 
