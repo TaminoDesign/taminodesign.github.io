@@ -953,7 +953,10 @@ width: 52%;
     align-self: center;
 }
 
-
+#conceptLink {
+    width: 100%;
+    text-align: center;
+}
 
 
 
