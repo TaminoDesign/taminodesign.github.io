@@ -901,6 +901,7 @@ padding-right: 50px;
 }
 
 #PortfolioItems {
+    display: flex;
     margin: 40px;
     padding: 45px;
     border-radius: 50px;
