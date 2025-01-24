@@ -508,12 +508,15 @@ button:hover {
     #Hero {
         width: 100%;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
         padding: 10px;
         text-align: left;
-        align-items: end left;
-        align-content: end left;
+        align-items: end;
+        align-content: end;
     }
     #Hero p {
+        width: 100%;
         text-align: left;
         padding-bottom: 10px;
         padding-top: 20px;
@@ -521,6 +524,7 @@ button:hover {
         padding-right: 10px;
     }
     #Hero h1 {
+        width: 100%;
         font-size: 35px;
         text-align: left;
         padding-left: 10px;
