@@ -520,8 +520,10 @@ button:hover {
         padding-right: 10px;
     }
     #Hero h1 {
-        font-size: 25px;
+        font-size: 35px;
         text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
