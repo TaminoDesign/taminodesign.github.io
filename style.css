@@ -969,50 +969,6 @@ width: 52%;
 
 
 
-/* Timeline Container */
-.timeline-container {
-    position: relative;
-    width: 20px;
-    height: 100%;
-    float: left;
-    margin-right: 20px;
-}
-
-/* Vertical Line */
-.timeline {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: #cccccc;
-}
-
-/* Timeline Markers */
-.timeline-marker {
-    position: relative;
-    left: 50%;
-    margin-left: -10px;
-    width: 20px;
-    height: 20px;
-    background-color: #ffffff;
-    border: 2px solid #cccccc;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.timeline-marker .date {
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 12px;
-    color: #666666;
-}
-
-
 
 
 
