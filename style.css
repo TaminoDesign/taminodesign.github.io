@@ -503,6 +503,10 @@ button:hover {
     padding-left: 0px;
     padding-right: 0px;
 }
+#Hero h1 {
+    padding: 0px;
+}
+
 
 @media (max-width: 600px) {
     #Hero {
@@ -512,8 +516,8 @@ button:hover {
         flex-direction: column;
         padding: 10px;
         text-align: left;
-        align-items: end;
-        align-content: end;
+        align-items: flex-end;
+        align-content: flex-end;
     }
     #Hero p {
         width: 100%;
@@ -532,9 +536,6 @@ button:hover {
     }
 }
 
-#Hero h1 {
-    padding: 0px;
-}
 
 #heroImg {
     height: 60px;
