@@ -504,9 +504,10 @@ button:hover {
     padding-right: 0px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     #Hero {
         display: flex;
+        flex-direction: column;
         padding: 10px;
         text-align: left;
         align-items: end;
