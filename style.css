@@ -506,11 +506,14 @@ button:hover {
 
 @media (max-width: 400px) {
     #Hero {
+        display: flex;
         padding: 10px;
         text-align: left;
+        align-items: end;
         align-content: end;
     }
     #Hero p {
+        text-align: left;
         padding-bottom: 10px;
         padding-top: 20px;
         padding-left: 10px;
@@ -518,6 +521,7 @@ button:hover {
     }
     #Hero h1 {
         font-size: 25px;
+        text-align: left;
     }
 }
 
