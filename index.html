@@ -4,14 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamino Design</title>
-    
-
-<link rel="icon" type="image/x-icon" href="img/faviconNew.png?">
-    <meta property="og:image" content="img/faviconNew.png" />
-
-<link rel="stylesheet" href="style.css">
-
-<meta name="robots" content="max-image-preview:large" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/faviconNew.png">
+    <meta name="robots" content="max-image-preview:large" />
 
 <meta name="title" content="Tamino Design | Web and Graphic design">
 <meta name="description" content="Tamino Design - Creative and unique Web and Graphic design">
@@ -27,138 +22,230 @@
     <meta name="google-site-verification" content="1BSIU3O2hK7j_ffBelvjd-Eob3BFQMv_qnO4tdD2XCc" />
 </head>
 <body>
-
-
-    <div class="circle" id="circle1"></div>
-    <div class="circle" id="circle2"></div>
-    <div class="circle" id="circle2"></div>
-    <div class="circle" id="circle3"></div>
-    <div class="circle" id="circle4"></div>
-    <div class="circle" id="circle5"></div>
-    <div class="circle" id="circle6"></div>
-    <div class="circle" id="circle7"></div>
-    <div class="circle" id="circle8"></div>
-    <div class="circle" id="circle9"></div>
-    <div class="circle" id="circle8"></div>
-    <div class="circle" id="circle5"></div>
-    <div class="circle" id="circle7"></div>
-    <div class="circle" id="circle8"></div>
-
-    <!-- Hamburger icon -->
-    <input class="side-menu" type="checkbox" id="side-menu"/>
-    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-    <!-- Menu -->
-    <nav class="nav">
+    <div class="pageContaint">
+        <header>
+            <div class="hero">
+                <!-- Navigation Bar -->
+                <nav class="nav">
+                    <a href="index.html">
+                      <img src="images/Logo Weis neu.png" alt="Logo" class="logo">
+                    </a>
+                    <!-- Desktop Menu Links -->
+                    <div class="nav-links">
+                      <a href="portfolio.html"><p>Portfolio</p></a>
+                      <a href="about.html"><p>About</p></a>
+                      <a href="contact.html"><p>Contact</p></a>
+                      <a href="https://www.linkedin.com/in/janoschhussain/" target="_blank"><p>LinkedIn</p></a>
+                    </div>
+                    <!-- Hamburger Icon for Mobile -->
+                    <div class="hamburger">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </nav>
+                  
+                  <!-- Full-page slide-in overlay menu for mobile -->
+                  <div class="overlay-menu">
+                    <div class="overlay-content">
+                      <a href="portfolio.html"><h3>Portfolio</h3></a>
+                      <a href="about.html"><h3>About</h3></a>
+                      <a href="contact.html"><h3>Contact</h3></a>
+                      <a href="https://www.linkedin.com/in/janoschhussain/" target="_blank"><h3>LinkedIn</h3></a>
+                    </div>
+                  </div>
+                  
+  
+                <div class="heroText">
+                    <p>
+                        Hi I'm Janosch, I create
+                    </p>
+                    <h1>
+                        Unique websites<br>that don't break<br>the bank.
+                    </h1>
+                </div>
+            </div>
+        </header>
+    
+        <div class="videoDiv">
+            <video width="320" height="240" autoplay muted loop>
+                <source src="images/Video.webm" type="video/webm">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+        </div> 
         
-        <ul class="menu">
-            <li class="MenuText"><a href="index.html"><img src="img/home_50dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Home"></a></li>
-            <li class="MenuText"><a href="portfolio.html"><img src="img/dashboard_50dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Portfolio"></a></li>
-            <li class="MenuText"><a href="about.html"><img src="img/person_50dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="About"></a> </li>
-            <li class="MenuText"><a href="contact.html"><img src="img/mail_50dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Contact"></a></li>
-            <li class="MenuText"><a href="https://www.linkedin.com/in/janoschhussain/" target="_blank"><img src="img/linkedin.png" alt="Linkedin"></a></li>
-        </ul>
-    </nav>
+        <div class="YChomepage">
+            <img src="images/youngcre8ors.com website apple display.png" alt="An image of the young cre8ors homepage" class="LaptopImage">
 
+            <div class="infoText">
+                <h3>
+                    Young Cre8ors
+                </h3>
+                <p>
+                    Online curses for kids and teens.
+                </p>
+                <p>
+                    October 2024
+                </p>
+            </div>
+        </div>
 
-    <div id="logo">
-        <a href="index.html"><img src="img/Logo Weis neu.png" alt="Logo"></a>
-    </div>
-
-
-    <div id="Hero">
-        <p>Hi, I'm Janosch</p>
-        <h1>
-            A Frontend Web<br>Designer & Developer
-        </h1>
-        <p>Framer, WordPress or Custom code.</p>
-    </div>
-
-
-
-
-
-    <div id="Portfolio">
-
-        <a href="portfolio.html"><h1>Portfolio</h1></a>
-        <div class="portfolioHomeBackground">
-            <div class="portfolioHomeContent">
-                <div class="portfolioHomeTextTop">
-                    <h2>Young Cre8ors</h2>
-                    <p>Online courses for kids and teens</p>
-                </div>
-                <img src="img/Young Cre8ors.png" alt="" class="portfolioHomeImage">
-                <div class="portfolioHomeTextBottom">
-                    <p>October 2024<br>Website update</p>
-                    <a href="https://taminodesign.com/portfolio"><button type="button" >More info</button></a>
+        <div class="YChomepageSection2">
+            <div class="YCphone">
+                <p>Logo, Web Design & Development (WordPress)</p>
+                <img src="images/youngcre8ors.com_about-me_(iPhone 14 Pro Max).png" alt="An image of the young cre8ors about me page on a phone">
+            </div>
+            <div class="YCtablet">
+                <img src="images/IMG_4344.jpg" alt="An image of the young cre8ors course page on a tablet">
+                <div class="infoText2">
+                    <p>Online courses for kids and teens. My very first website ever. I built the website using WordPress, designing the logo and did some of the graphic design. This website has actually gone through a lot of iterations to where it's now.</p>
                 </div>
             </div>
         </div>
 
-        <div class="portfolioHomeBackground2">
-            <div class="portfolioHomeContent">
-                <div class="portfolioHomeTextTop">
-                    <h2>Lichtbaummobil</h2>
-                    <p>Wooden living cabins</p>
-                </div>
-                <img src="img/Lichtbaummobil.png" alt="" class="portfolioHomeImage">
-                <div class="portfolioHomeTextBottom">
-                    <p>October 2024</p>
-                    <a href="https://taminodesign.com/portfolio"><button type="button" >More info</button></a>
+        <div class="LBMhomepage">
+            <img src="images/LBMhomepage.png" alt="An image of the Lichtbaummobil homepage" class="LaptopImage">
+
+            <div class="infoTextLBM">
+                <h3>
+                    Lichtbaummobil
+                </h3>
+                <p>
+                    Custom wooden living cabins for pick ups.
+                </p>
+                <p>
+                    October 2024
+                </p>
+            </div>
+        </div>
+
+        <div class="LBMhomepageSection2">
+            <div class="LBMphone">
+                <p>Logo, Web Design & Development (custom coded)</p>
+                <img src="images/LBMgallerypage.png" alt="An image of the Lichtbaummobil gallery page on a phone">
+            </div>
+            <div class="LBMtablet">
+                <img src="images/LBMcamppage.png" alt="An image of the Lichtbaummobil camp page on a tablet">
+                <div class="infoTextLBM2">
+                    <p>Lichtbaummobil means "light tree mobile," which inspired the design of this logo. I also designed a custom font that is inspired by Celtic runes. I made this logo for a carpenter who builds custom wooden living cabins. This is my second website that I built from scratch, I coded it all in HTML and CSS.</p>
                 </div>
             </div>
         </div>
 
-        <div class="portfolioHomeBackground3">
-            <div class="portfolioHomeContent">
-                <div class="portfolioHomeTextTop">
-                    <h2>Dolomitenkasperl</h2>
-                    <p>Online puppet theatre</p>
+        <a href="portfolio.html" class="button"><button type="button"><p>Browse all my projects</p></button></a>
+
+
+        <div class="about">
+            <h1>
+                Who are you?
+            </h1>
+            <div class="aboutcon">
+                <div class="aboutButton">
+                    <a href="about.html" class="button"><button type="button"><p>Fine out more</p></button></a>
                 </div>
-                <img src="img/DolomitenkasperlTD.PNG" alt="" class="portfolioHomeImage">
-                <div class="portfolioHomeTextBottom">
-                    <p>March 2024</p>
-                    <a href="https://taminodesign.com/portfolio"><button type="button" >More info</button></a>
+                <p class="aboutconText">
+                    Good question. I'm a 16-year-old who loves creating, designing, and building websites. I first got into website building when I helped my dad set up his online course site, that project really sparked my interest. Since then, I've been using WordPress but also custom code to build more unique sites. When I'm not coding or designing, you'll find me lost in a good fiction book.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="pricing">
+            <div class="pricing1">
+                <div class="pricingBox">
+                    <h1>Pricing</h1>
+                    <p>Prices are in New Zealand dollars.</p>
+                </div>
+                <div class="pricingBox">
+                    <p>Add-ons:</p>
+                    <p>Extra pages: $30 each (depending on complxity).</p>
+                    <p>Ongoing Maintenance and small content updates: $20/month or at request.</p>
+                </div>
+                <div class="pricingBox">
+                    <a href="contact.html" class="button"><button type="button"><p>Contact me</p></button></a>
+                </div>
+            </div>
+            <div class="pricing2">
+                <h3>Standard Bundle (a good custom site)</h3>
+                <h1>299 NZD</h1>
+                <p>160 EUR, 130 GBP, 165 USD</p>
+                <p>Perfect for small to medium businesses seeking a polished and unique site.</p>
+                <div class="check">
+                    <img src="images/check black.png" alt="checkmark">
+                    <p>Fully custom design (4-6 pages)</p>
+                </div>
+                <div class="check">
+                    <img src="images/check black.png" alt="checkmark">
+                    <p>Mobile-responsive</p>
+                </div>
+                <div class="check">
+                    <img src="images/check black.png" alt="checkmark">
+                    <p>Created in Framer</p>
+                </div>
+                <div class="check">
+                    <img src="images/check black.png" alt="checkmark">
+                    <p>Domain registration and set up help</p>
+                </div>
+                <div class="check">
+                    <img src="images/check black.png" alt="checkmark">
+                    <p>Branding guidance (typography & colours)</p>
+                </div>
+            </div>
+            <div class="pricing3">
+                <h3>Premium Bundle (advanced  custom site with E-commerce)</h3>
+                <h1>449 NZD</h1>
+                <p>240 EUR, 200 GBP, 250 USD</p>
+                <p>For businesses needing advanced design, more pages and a shop.</p>
+                <div class="check">
+                    <img src="images/check.png" alt="checkmark">
+                    <p>Fully custom design (6-10 pages)</p>
+                </div>
+                <div class="check">
+                    <img src="images/check.png" alt="checkmark">
+                    <p>CMS tailored for complex content</p>
+                </div>
+                <div class="check">
+                    <img src="images/check.png" alt="checkmark">
+                    <p>Mobile-responsive</p>
+                </div>
+                <div class="check">
+                    <img src="images/check.png" alt="checkmark">
+                    <p>Created in Framer or WordPress</p>
+                </div>
+                <div class="check">
+                    <img src="images/check.png" alt="checkmark">
+                    <p>Domain registration and set up help</p>
+                </div>
+                <div class="check">
+                    <img src="images/check.png" alt="checkmark">
+                    <p>Branding guidance (typography & colours)</p>
+                </div>
+                <div class="check">
+                    <img src="images/check.png" alt="checkmark">
+                    <p>Full e-commerce store setup</p>
                 </div>
             </div>
         </div>
 
-        <a href="portfolio.html"><button type="button">To all my projects</button></a>
 
-</div>
+        <footer>
+            <div class="footer">
+                <div class="navFooter">
+                    <a href="index.html"><img src="images/Logo Weis neu.png" alt="Logo" class="logo"></a>
+                    <a href="privacy-policy.html"><p>Privacy policy</p></a>
+                </div>
+                <div class="footerText">
+                    <h1>
+                        Let's create<br>something unique!
+                    </h1>
+                    <a href="mailto:hi@taminodesign.com"><p>hi@taminodesign.com</p></a>
+                </div>
+            </div>
+        </footer>
 
-    <div id="About">
-        <h1>
-            About Me
-        </h1>
-        <p>I'm a 16-year-old teen with an interest in creating, designing, and building websites.
-            As a front-end web designer, I would love to create a modern and responsive website for you using WordPress or Framer.
-        </p>
-        <a href="about.html"><button type="button">More</button></a>
     </div>
 
-    <div id="Contact">
-        <p>Do you need help with building, editing or updating your website?</p>
-        <div id="icons">
-            <img src="img/construction_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="build icon" height="auto" width="100">
-            <img src="img/edit_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="edit icon" height="auto" width="100">
-            <img src="img/update_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="update icon" height="auto" width="100">
-        </div>
-        <a href="contact.html"><button type="button">Contact</button></a>
-    </div>
-
-    <div id="About">
-        <h2>To see what I'm designing right now, connect on <a href="https://linkedin.com/in/janoschhussain" target="_blank">Linkedin</a>.</h2>
-    </div>
-
-
-    <div id="footer">
-        <h1>Looking for Help?</h1>
-        <h2>taminodesign@proton.me</h2>
-        <p>© 2025 Tamino Design <a href="privacy-policy.html">Privacy policy</a></p>
-    </div>
-
-
-
-<script src="js.js"></script>
+    <script src="js.js"></script>
 </body>
 </html>

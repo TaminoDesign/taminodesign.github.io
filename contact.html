@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Tamino Design</title>
-    
+    <title>Contact - Tamino Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/faviconNew.png">
+    <meta name="robots" content="max-image-preview:large" />
 
-<link rel="icon" type="image/x-icon" href="img/faviconNew.png?">
-
-<link rel="stylesheet" href="style.css">
-
-<meta name="robots" content="max-image-preview:large" />
-
-<meta name="title" content="Tamino Design | Contact">
+<meta name="title" content="Contact | Tamino Design">
 <meta name="description" content="Tamino Design - Creative and unique Web and Graphic design">
 <meta name="keywords" content="Web development, graphic design, Tamino Design, Creative and unique web design, ">
 <meta name="robots" content="index, follow">
@@ -23,94 +19,110 @@
 <script defer src="https://app.tinyanalytics.io/pixel/1CIx8mtZg9vb2bom"></script>
 <!-- END Pixel Code -->
 
+    <meta name="google-site-verification" content="1BSIU3O2hK7j_ffBelvjd-Eob3BFQMv_qnO4tdD2XCc" />
 </head>
 <body>
-
-
-    <div class="circle" id="circle1"></div>
-    <div class="circle" id="circle2"></div>
-    <div class="circle" id="circle3"></div>
-    <div class="circle" id="circle4"></div>
-    <div class="circle" id="circle5"></div>
-    <div class="circle" id="circle6"></div>
-    <div class="circle" id="circle7"></div>
-    <div class="circle" id="circle8"></div>
-    <div class="circle" id="circle9"></div>
-
-
-
- <!-- Hamburger icon -->
- <input class="side-menu" type="checkbox" id="side-menu"/>
- <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
- <!-- Menu -->
- <nav class="nav">
-     
-    <ul class="menu">
-        <li class="MenuText"><a href="index.html"><img src="img/home_50dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Home"></a></li>
-        <li class="MenuText"><a href="portfolio.html"><img src="img/dashboard_50dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Portfolio"></a></li>
-        <li class="MenuText"><a href="about.html"><img src="img/person_50dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="About"></a> </li>
-        <li class="MenuText"><a href="contact.html"><img src="img/mail_50dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png" alt="Contact"></a></li>
-        <li class="MenuText"><a href="https://www.linkedin.com/in/janoschhussain/" target="_blank"><img src="img/linkedin.png" alt="Linkedin"></a></li>
-    </ul>
- </nav>
-
- <div id="logo">
-    <a href="index.html"><img src="img/Logo Weis neu.png" alt="Logo"></a>
- </div>
-
-    <div id="Hero">
-        <h1>
-            Contact
-        </h1>
-    </div>
-
-
-    <div id="Contact">
-        <p>Please include why you are contacting me in your first message otherwise I might mark you as spam, thanks.</p>
-    </div>
-<div id="PortfolioPage">
-
+    <div class="pageContaint">
+        <header>
+            <div class="heroPages">
+                <!-- Navigation Bar -->
+                <nav class="nav">
+                    <a href="index.html">
+                      <img src="images/Logo Weis neu.png" alt="Logo" class="logo">
+                    </a>
+                    <!-- Desktop Menu Links -->
+                    <div class="nav-links">
+                      <a href="portfolio.html"><p>Portfolio</p></a>
+                      <a href="about.html"><p>About</p></a>
+                      <a href="contact.html"><p>Contact</p></a>
+                      <a href="https://www.linkedin.com/in/janoschhussain/" target="_blank"><p>LinkedIn</p></a>
+                    </div>
+                    <!-- Hamburger Icon for Mobile -->
+                    <div class="hamburger">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </div>
+                  </nav>
+                  
+                  <!-- Full-page slide-in overlay menu for mobile -->
+                  <div class="overlay-menu">
+                    <div class="overlay-content">
+                      <a href="portfolio.html"><h3>Portfolio</h3></a>
+                      <a href="about.html"><h3>About</h3></a>
+                      <a href="contact.html"><h3>Contact</h3></a>
+                      <a href="https://www.linkedin.com/in/janoschhussain/" target="_blank"><h3>LinkedIn</h3></a>
+                    </div>
+                  </div>
+                  
+            </div>
+        </header>
     
+        <div class="heroTextPages">
+            <h1>
+                Contact
+            </h1>
+        </div>
+        
 
-    <div id="PortfolioItems">
-        <p>Feel free to contact me here:<a href="mailto:taminodesign@proton.me"><p>taminodesign@proton.me</p></a></p>
+        <div class="contactBlock">
+            <div class="contactBlockEmail">
+                <div>
+                    <h1>Email:</h1>
+                <a href="mailto:hi@taminodesign.com"><p>hi@taminodesign.com</p></a>
+                <p>I'm located in Warkworth, New Zealand</p>
+                </div>
+                <h1>You can also find me on <a href="https://linkedin.com/in/janoschhussain">LinkedIn</a> and <a href="https://contra.com/janoschhussain">Contra</a>.</h1>
+            </div>
+            <div class="contactBlockForm">
+                <form action="https://api.web3forms.com/submit" method="POST">
         
-        <form action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="833c2aa5-84b8-4b8a-aea1-ec18895bcc11">
+                
+                    <!-- Form Inputs. Each input must have a name="" attribute -->
+                    <input type="text" name="name" required placeholder="Name" class="name">
+                    <input type="email" name="email" required placeholder="Email" class="email">
 
-            <!-- Replace with your Access Key -->
-            <input type="hidden" name="access_key" value="1700d866-061e-488f-aff7-8c08cf7a3bcf">
-        
-            <!-- Form Inputs. Each input must have a name="" attribute -->
-            <input type="text" name="name" required placeholder="Name" class="name">
-            <input type="email" name="email" required placeholder="E-mail" class="email">
-            <textarea name="message" required placeholder="Message" class="message"></textarea>
-        
-            <!-- Honeypot Spam Protection -->
-            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-        
-            <!-- Custom Confirmation / Success Page -->
-            <input type="hidden" name="redirect" value="https://taminodesign.com/thanks.html">
-        
-            <button type="submit">Submit</button>
-        
-        </form>
+                    <select name="bundle" class="bundle" required>
+                        <option value="" disabled selected>What pricing bundle?</option>
+                        <option value="Standard">Standard bundle</option>
+                        <option value="Premium">Premium bundle</option>
+                        <option value="custom">Something custom</option>
+                    </select>
+                    
+
+                    <textarea name="message" required placeholder="Message" class="message"></textarea>
+                
+                    <!-- Honeypot Spam Protection -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                
+                    <!-- Custom Confirmation / Success Page -->
+                    <input type="hidden" name="redirect" value="https://taminodesign.com/thanks">
+                
+                    <button type="submit"><p>Submit</p></button>
+                
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <div class="navFooter">
+                    <a href="index.html"><img src="images/Logo Weis neu.png" alt="Logo" class="logo"></a>
+                    <a href="privacy-policy.html"><p>Privacy policy</p></a>
+                </div>
+                <div class="footerText">
+                    <h1>
+                        Let's create<br>something unique!
+                    </h1>
+                    <a href="mailto:hi@taminodesign.com"><p>hi@taminodesign.com</p></a>
+                </div>
+            </div>
+        </footer>
+
     </div>
 
-    <div id="PortfolioItems">
-        <p>I'm located in Warkworth, New Zealand</p>
-        <p>You can also find me on<a href="https://www.linkedin.com/in/janoschhussain/" target="_blank"><p>LinkedIn</p></a></p>
-
-    </div>
-
-
-
-    <div id="footer">
-        <h1>Looking for Help?</h1>
-        <h2>taminodesign@proton.me</h2>
-        <p>© 2025 Tamino Design <a href="privacy-policy.html">Privacy policy</a></p>
-    </div>
-
-
-<script src="js.js"></script>
+    <script src="js.js"></script>
 </body>
 </html>
