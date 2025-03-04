@@ -131,7 +131,6 @@ p {
     .hero {
         text-align: center;
         justify-content: center;
-        margin: 30px;
         padding: 30px;
     }
     .heroPages {
@@ -795,7 +794,6 @@ footer {
 
 @media (max-width: 768px) {
     .footer {
-        margin: 30px;
         padding: 10px;
     }
   }
