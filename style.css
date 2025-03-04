@@ -1071,9 +1071,8 @@ label p,
 @media (max-width: 799px) {
     .contactBlock {
         flex-direction: column;
-        padding: 30px;
-        margin: 30PX;
-        width: 70%;
+        padding: 0px;
+        width: 100%;
     }
     form {
         width: 100%;
