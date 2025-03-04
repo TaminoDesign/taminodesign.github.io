@@ -6,7 +6,7 @@
 }
 
 a {
-    text-decoration: white wavy underline;
+    text-decoration: white underline;
     font-size: inherit;
     font-family: inherit;
 }
@@ -979,7 +979,7 @@ footer {
     width: 50%;
   }
   .contactBlockEmail a {
-    text-decoration: rgb(0, 0, 0) wavy underline;
+    text-decoration: rgb(0, 0, 0) underline;
     color: black;
   }
 
@@ -1091,6 +1091,6 @@ label p,
   }
 
   .textBlock a {
-    text-decoration: rgb(0, 0, 0) wavy underline;
+    text-decoration: rgb(0, 0, 0) underline;
     color: black;
   }
