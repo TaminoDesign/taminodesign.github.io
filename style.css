@@ -93,9 +93,28 @@ header {
     margin: 100px 50px 50px 0px;
 }
 
+
+/*
+Font: 		Fedro Light
+Style: 		Regular
+URL: 		https://youworkforthem.com/font/T26441/fedro
+Foundry: 	Nasir Udin
+Foundry: 	https://youworkforthem.com/designer/931/nasir-udin
+Copyright:	Copyright (c) 2024 by Nasir Udin Studio. All rights reserved.
+Version: 	17
+Created:	November 04, 2024
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
 @font-face {
     font-family: 'Fedro';
-    src: url('images/Fedro-Light.otf');
+        src: url('images/fedro-light.woff2') format('woff2'),
+             url('images/fedro-light.woff') format('woff'),
+             url('images/fedro-light.ttf') format('truetype');
   }
 
   @font-face {
