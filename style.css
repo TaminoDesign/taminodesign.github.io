@@ -164,7 +164,7 @@ p {
 /* Navigation container with original positioning */
 .nav {
     width: auto;
-    height: auto;
+    height: 35px;
     position: absolute;
     top: 40px;
     left: 40px;
@@ -177,7 +177,7 @@ p {
   
   /* Desktop menu links styling */
   .nav .nav-links a {
-    padding: 10px;
+    padding-left: 15px;
     text-decoration: none;
     color: inherit;
   }
@@ -289,7 +289,7 @@ p {
   
 
 .logo {
-    height: 30px;
+    height: 35px;
     width: auto;
     padding-right: 10px;
 }
@@ -704,6 +704,7 @@ button {
     background: linear-gradient(90deg, rgba(103,62,128,1) 0%, rgba(139,52,147,1) 41%, rgba(191,99,48,1) 81%, rgba(252,161,112,1) 100%);
     cursor: pointer;
     text-align: center;
+    transition: background 0.4s ease, box-shadow 0.5s ease; /* Add transition for smooth fading */
 }
 
 button p {
@@ -812,7 +813,7 @@ footer {
 }
 
 .footerText p {
-    text-decoration: none;
+    text-decoration: underline white;
 }
 
 @media (max-width: 768px) {
@@ -1117,3 +1118,197 @@ label p,
     text-decoration: underline;
     color: black;
   }
+
+
+
+
+
+  .kabinenGrid {
+    display: grid;
+    gap: 30px;
+    margin-bottom: 150px;
+    place-items: center; /* Centers content horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+  overflow: visible;
+      grid-template-areas: 
+      "Box1 Box1 Box4"
+      "Box2 Box3 Box4"
+      "Box2 Box5 Box6"
+      "Box7 Box7 Box7";
+    box-sizing: border-box;
+  }
+  
+  
+  .gridBox1 {
+    width: 100%;
+    height: 200px;
+    border: 15px solid white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: url('images/wireframe.PNG');
+    background-position: right;
+    background-size: cover;
+    box-shadow: 0px 0px 37px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: Box1;
+  }
+  
+  .gridBox2 {
+    width: 100%;
+    height: 100%;
+    border: 15px solid white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: url('images/CMS.PNG');
+    background-position: right;
+    background-size: cover;
+    box-shadow: 0px 0px 37px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: Box2;
+  }
+  
+  .gridBox3 {
+    width: 100%;
+    height: 200px;
+    border: 15px solid white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: url('images/background.png');
+    background-position: right;
+    background-size: cover;
+    box-shadow: 0px 0px 37px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: Box3;
+  }
+  
+  .gridBox4 {
+    width: 100%;
+    height: 100%;
+    border: 15px solid white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: url('images/mobile.PNG');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 37px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: Box4;
+  }
+  
+  .gridBox5 {
+    width: 100%;
+    height: 200px;
+    border: 15px solid white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: url('images/framer.PNG');
+    background-position: right;
+    background-size: cover;
+    box-shadow: 0px 0px 37px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: Box5;
+  }
+  
+  .gridBox6 {
+    width: 100%;
+    height: 100%;
+    border: 15px solid white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: url('images/font.PNG');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 37px rgba(0, 0, 0, 0.37);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: Box6;
+  }
+
+  .gridBox7 {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-area: Box7;
+  }
+  
+  
+  .gridText {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  @media (max-width: 1380px) {
+    .kabinenGrid h2 {
+      font-size: 100%;
+    }
+  }
+  
+  
+  
+  @media (max-width: 700px) {
+    .kabinenGrid {
+      grid-template-areas: 
+  "Box3"
+  "Box1"
+  "Box2"
+  "Box4"
+  "Box5"
+  "Box6"
+  "Box7";
+  gap: 40px;
+  padding: 0px;
+  margin-bottom: 150px;
+    }
+    .gridBox4 {
+      height: 300px;
+    }
+    .gridBox7 {
+        padding: 5px;
+        width: 100%;
+      }
+      .gridBox7 .button {
+        padding: 0px;
+        padding-bottom: 40px;
+      }
+  }
+  
