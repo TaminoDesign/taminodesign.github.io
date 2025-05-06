@@ -315,6 +315,16 @@ video {
     border-radius: 30px;
 }
 
+@media (max-width: 600px) {
+    .videoDiv {
+        display: none;
+    }
+    .hero {
+        margin-bottom: 150px;
+        height: 100vh;
+    }
+  }
+
 .YChomepage {
     display: flex;
     flex-direction: row;
