@@ -1322,3 +1322,54 @@ label p,
       }
   }
   
+
+
+  /* THE LAB */ 
+
+  .lab {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+}
+
+.lab h1 {
+    color: black;
+    padding-bottom: 30px;
+}
+
+.labcon {
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+}
+
+.labconimg {
+    width: 60%;
+    padding-right: 20px;
+    height: auto;
+}
+
+.labconText {
+    color: black;
+    width: fill;
+}
+
+@media (max-width: 900px) {
+    .labcon img {
+      width: 50%;
+    }
+  }
+
+@media (max-width: 800px) {
+    .labcon {
+        flex-direction: column;
+    }
+    .labcon img {
+      width: 100%;
+      padding: 10px;
+    }
+  }
