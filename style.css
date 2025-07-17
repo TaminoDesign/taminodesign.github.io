@@ -1358,13 +1358,13 @@ label p,
     width: fill;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
     .labcon img {
       width: 50%;
     }
   }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
     .labcon {
         flex-direction: column;
     }
