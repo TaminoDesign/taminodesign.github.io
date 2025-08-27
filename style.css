@@ -47,7 +47,7 @@ header {
     height: 80vh;
     width: 100%;
     max-width: 2000px;
-    background: url('images/background.png');
+    background: url('images/background.webp');
     background-size: cover;
     background-position: right;
     border: 15px solid white;
@@ -65,7 +65,7 @@ header {
     height: 140px;
     width: 100%;
     max-width: 2000px;
-    background: url('images/background.png');
+    background: url('images/background.webp');
     background-size: cover;
     background-position: right;
     border: 15px solid white;
@@ -805,7 +805,7 @@ footer {
     position: relative;
     height: 80vh;
     width: 100%;
-    background: url('images/background.png');
+    background: url('images/background.webp');
     background-size: cover;
     background-position: right;
     border: 15px solid white;
@@ -930,7 +930,7 @@ footer {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    background: url('images/background.png');
+    background: url('images/background.webp');
     background-position: right;
     background-size: cover;
     box-shadow: 0px 0px 37px rgba(0, 0, 0, 0.37);
@@ -1195,7 +1195,7 @@ label p,
     padding: 30px;
     display: flex;
     flex-direction: column;
-    background: url('images/background.png');
+    background: url('images/background.webp');
     background-position: right;
     background-size: cover;
     box-shadow: 0px 0px 37px rgba(0, 0, 0, 0.37);
